@@ -1,4 +1,4 @@
-##Day 1 – Digital Forensics: File & Permission Sweep
+## Day 1 – Digital Forensics: File & Permission Sweep
 Scenario: You've just taken over a legacy server and need to locate rogue config files, con>
 
 ### Objectives:
