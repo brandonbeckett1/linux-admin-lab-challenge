@@ -1,6 +1,6 @@
 ## Day 1 – Digital Forensics: File & Permission Sweep
 Scenario: You've just taken over a legacy server and need to locate rogue config files, con>
-
+Focus: tree, find, locate, ls -l, umask
 ### Objectives:
 * Find every .conf file under /etc or /opt, sorted by last modified
 `find /etc /opt -type f -name "*.conf" -exec ls -lh {} \; | sort -k6,7`
@@ -18,18 +18,6 @@ Scenario: You've just taken over a legacy server and need to locate rogue config
 
 * Your current umask and the effect it had
 
-* Top 3 biggest .log files## Day 1 – Mastering File Discovery & Navigation Tools
-Focus: tree, find, locate, ls -l, umask
+* Top 3 biggest .log files
 
-### Tasks:
-Install and run tree on /etc, then on /home
-
-Use find to locate all .conf files under /etc
-
-Update locate with sudo updatedb, then search for nginx.conf
-
-Check your umask, then test how new files/directories are created with it
-
-### Bonus:
-Change your umask temporarily, test again, then reset it
 
